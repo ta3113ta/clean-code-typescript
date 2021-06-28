@@ -1,11 +1,11 @@
 # clean-code-typescript [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Clean%20Code%20Typescript&url=https://github.com/labs42io/clean-code-typescript)
 
-Clean Code concepts adapted for TypeScript.  
-Inspired from [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
+แนวคิด Clean Code ที่ดัดแปลงสำหรับ TypeScript
+ได้แรงบันดาลใจจาก [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
 ## Table of Contents
 
-  1. [Introduction](#introduction)
+  1. [บทนำ](#บทนำ)
   2. [Variables](#variables)
   3. [Functions](#functions)
   4. [Objects and Data Structures](#objects-and-data-structures)
@@ -18,7 +18,7 @@ Inspired from [clean-code-javascript](https://github.com/ryanmcdermott/clean-cod
   11. [Comments](#comments)
   12. [Translations](#translations)
 
-## Introduction
+## บทนำ
 
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
