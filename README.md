@@ -3,7 +3,7 @@
 แนวคิด Clean Code ที่ดัดแปลงสำหรับ TypeScript
 ได้แรงบันดาลใจจาก [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
-## Table of Contents
+## สารบัญ
 
   1. [บทนำ](#บทนำ)
   2. [Variables](#variables)
@@ -23,30 +23,19 @@
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 
-Software engineering principles, from Robert C. Martin's book
+หลักการวิศวกรรมซอฟต์แวร์  ของคุณ Robert C. Martin's จากหลังสือ
 [*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for TypeScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in TypeScript.
+นำมาปรับใช้กับ Typescript. ซึ่งเราไม้ได้มาอธิบายถึงรูปแบบการเขียนโค้ด แต่จะเป็นแนวทางในการเขียนโค้ดให้
+[readable, reusable, และ refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in TypeScript.
 
-Not every principle herein has to be strictly followed, and even fewer will be
-universally agreed upon. These are guidelines and nothing more, but they are
-ones codified over many years of collective experience by the authors of
+คุณไม่จำเป็นต้องทำตามหลักการนี้เป๊ะๆก็ได้ และมันก็ไม่ได้เป็นที่ตกลงกันอย่างกว้างขวาง นี้เป็นเพียงแค่แนวทางเท่านั้น แต่มันกลั่นมาจากประสบการณ์หลายปีจากผู้เขียน
 *Clean Code*.
 
-Our craft of software engineering is just a bit over 50 years old, and we are
-still learning a lot. When software architecture is as old as architecture
-itself, maybe then we will have harder rules to follow. For now, let these
-guidelines serve as a touchstone by which to assess the quality of the
-TypeScript code that you and your team produce.
+จากฝีมือด้านวิศวกรรมซอฟต์แวร์ 50 กว่าๆปีของเรา และยังคงต้องเรียนรู้อะไรอีกมากมาย เมื่อสถาปัตยกรรมซอฟแวร์เก่าขึ้นเรื่อยๆ บางทีอาจมันจะเป็นเรื่องยากที่เราจะการปฏิบัติตามกฎ สำหรับตอนนี้ ให้แนวทางเหล่านี้เป็นมาตรฐานในการประเมินคุณภาพของโค้ด TypeScript ที่คุณและทีมงานของคุณสร้างขึ้นมา
 
-One more thing: knowing these won't immediately make you a better software
-developer, and working with them for many years doesn't mean you won't make
-mistakes. Every piece of code starts as a first draft, like wet clay getting
-shaped into its final form. Finally, we chisel away the imperfections when
-we review it with our peers. Don't beat yourself up for first drafts that need
-improvement. Beat up the code instead!
+และอีกอย่าง: การที่คุณรู้สิ่งเหล่านี้มันไม่ได้ทำให้คุณเก่งขึ้นในทันที และการทำงานหลายปีไม่ได้หมายความว่าคุณจะทำงานไม่ผิดพลาด โค้ดทุกส่วนเริ่มต้นมาจากการร่าง ก็เหมือนกับดินเหนียวที่เราปั้นจนกลายเป็นรูปเป็นร่างในที่สุด เราขจัดความไม่สมบูรณ์ออกไปเมื่อเราทบทวนกับคนอื่นๆ อย่าโทษตัวเองเมื่อร่างโค้ดครั้งแรกแล้วออกมาไม่ดี ให้โทษที่โค้ดแทน!!
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ กลับไปด้านบน](#สารบัญ)**
 
 ## Variables
 
