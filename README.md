@@ -39,11 +39,11 @@ you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 
 ## Variables
 
-### Use meaningful variable names
+### ตั้งชื่อตัวแปรให้สื่อความหมาย
 
-Distinguish names in such a way that the reader knows what the differences offer.
+ตั้งชื่อให้ผู้อ่านรู้ว่าความแตกต่างมีอะไรบ้าง และแต่ละตัวทำหน้าที่อะไร
 
-**Bad:**
+**แย่:**
 
 ```ts
 function between<T>(a1: T, a2: T, a3: T): boolean {
@@ -52,7 +52,7 @@ function between<T>(a1: T, a2: T, a3: T): boolean {
 
 ```
 
-**Good:**
+**ดี:**
 
 ```ts
 function between<T>(value: T, left: T, right: T): boolean {
@@ -60,7 +60,7 @@ function between<T>(value: T, left: T, right: T): boolean {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ กลับไปด้านบน](#สารบัญ)**
 
 ### Use pronounceable variable names
 
