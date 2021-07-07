@@ -62,11 +62,11 @@ function between<T>(value: T, left: T, right: T): boolean {
 
 **[⬆ กลับไปด้านบน](#สารบัญ)**
 
-### Use pronounceable variable names
+### ใช้ชื่อตัวแปรที่สามารถออกเสียงได้
 
-If you can’t pronounce it, you can’t discuss it without sounding like an idiot.
+ถ้าคุณออกเสียงมันไม่ได้ คุณก็จะคุยกับคนอื่นไม่รู้เรื่อง
 
-**Bad:**
+**แย่:**
 
 ```ts
 type DtaRcrd102 = {
@@ -76,7 +76,7 @@ type DtaRcrd102 = {
 }
 ```
 
-**Good:**
+**ดี:**
 
 ```ts
 type Customer = {
@@ -86,7 +86,7 @@ type Customer = {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ กลับไปด้านบน](#สารบัญ)**
 
 ### Use the same vocabulary for the same type of variable
 
