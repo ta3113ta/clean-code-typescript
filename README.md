@@ -88,9 +88,9 @@ type Customer = {
 
 **[⬆ กลับไปด้านบน](#สารบัญ)**
 
-### Use the same vocabulary for the same type of variable
+### ใช้คำคำเดียวกัน ถ้ามันตัวแปรมันเป็น type เดียวกัน
 
-**Bad:**
+**แย่:**
 
 ```ts
 function getUserInfo(): User;
@@ -98,13 +98,13 @@ function getUserDetails(): User;
 function getUserData(): User;
 ```
 
-**Good:**
+**ดี:**
 
 ```ts
 function getUser(): User;
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ กลับไปด้านบน](#สารบัญ)**
 
 ### Use searchable names
 
